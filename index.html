@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tagges-->
+    <meta charset="UTF-8">
+    <meta name="AUTHOR" content="vivek">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="protfolio, mulla vivek, bvrit, profle, presonal website">
+    <meta name="language" content="HTML, JS, CSS">
+    <!--link tagges-->
+    <link type="text/css" rel="stylesheet" href="style_header.css">
+    <link type="text/css" rel="stylesheet" href="style_about.css">
+    <link type="text/css" rel="stylesheet" href="style_portfolio.css">
+    <link type="text/css" rel="stylesheet" href="style_myskills.css">
+    <link type="text/css" rel="stylesheet" href="style_Contact.css">
+    <link type="text/css" rel="stylesheet" href="style_moblie.css">
+    <title>Vivek's website</title>
+    
+
+</head>
+<body>
+    <div id="header">
+        <div class="Home">
+            <nav>
+                <a href="#header"><img src="logo.png" alt="profle"></a>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#skills">My skills</a></li>
+                        <li><a href="#contact">Contant Me</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hello, This is <span>Vivek</span></h1>
+                <p class="me">A curious and insightful Developer and CSE student at B.V.Raju Instituute of technology, Narsapur.A deep level of curiosity and Will to more and Improve my craft.</p>
+            </div>    
+        </div>
+    </div>
+    <!-- -------------------------------------------about me----------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="page_title">About Me</h1>
+                    <p class ="me">
+                        I am a curious and insigntful individual with a deep passion for learnig. My interests span a wide
+                        range of sujects, reflecting the diversity of my inguisitive mind.Let me tell what I doing now.I am 
+                        student at B.V.Raju Institute of technology who will complete  B.Tech in next year.
+                        I am look for a Job. Which can help me improve with skill and life style.
+                    </p>
+                    <div class="tab">
+                        <p class="tab_links active_link" onclick="opentab(event,'Skills')">Skills</p>
+                        <p class="tab_links " onclick="opentab(event,'Certification')">Certification</p>
+                        <p class="tab_links" onclick="opentab(event,'Education')">Education</p>
+                    </div>
+                    <!-- ------------------skills---------------------- -->
+                    <div class="tab_contents active_tab" id = "Skills">
+                        <ul>
+                            <li><span>Programing</span><br>python, Java, C</li>
+                            <li><span>Frontend technologies</span><br>HTML, CSS, JAVA SCRIPT, PHP</li> 
+                            <li><span>Database</span><br>MYSQL</li>
+                            <li><span>Tools</span><br>GIT AND GITHUB</li>
+                            <li><span>Image Editing</span><br>Photoshop, lightroom</li>
+                        </ul>
+                    </div>
+                    <!-- -------------Certification----------------- -->
+                    <div class="tab_contents" id="Certification">
+                        <ul>
+                            <li><span>Eduskills Virtual Internship</span><br><a href="Eduskills.pdf" target="_blank">AL-ML Virtual Internship</a></li>
+                            <li><span>Coincent</span><br><a href="Coincent.pdf" target="_blank">AL with python</a></li>
+                            <li><span>Skill India</span><br><a href="GuviCertification.png" target="_blank">AL for India 2.0</a></li>
+                        </ul>
+                    </div>
+                    <!-- --------------Education-------------------------- -->
+                    <div class="tab_contents" id="Education">
+                        <ul>
+                            <li><span>B.Tech</span><br>B.V.Raju Institute of technology<br>2021-2025</li>
+                            <li><span>M.P.C Intermediate</span><br>Narayana Junior collage<br>2019-2021</li>
+                            <li><span>School</span><br>Sri Vashnavi High School<br>2013-2019</li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="about-col-2"> 
+                        <img src="user.jpg" alt="photo">
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------------Protfolio---------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="contanier">
+            <h1 class="page_title">My Work</h1>
+                <div class="work_list">
+                    <div class="work">
+                        <img src="work-1.jpg">
+                        <div class="layer">
+                            <h3>House  price prediction</h3>
+                            <p>
+                                House price prediction using Linear regression model.
+                                To know more go to GITHUB.<br>
+                                <a href='https://github.com/ByteBuildersCorp/House_Price_predictionn' target="_blank"><i class="fa-solid fa-link"></i></a>
+                            </p>
+                        </div>                          
+                    </div>
+                    <div class="work">
+                        <img src="work-2.jpg">  
+                        <div class="layer">
+                            <h3>Clustering Customers on purchase</h3>
+                            <p>
+                                based on their purchase history we divide Customers into group.<br>
+                                <a href='https://github.com/ByteBuildersCorp/customer_segmentation' target="_blank"><i class="fa-solid fa-link"></i></a>
+                            </p>
+                        </div>                          
+                    </div>
+                    <div class="work">
+                        <img src="work-3.jpg">
+                        <div class="layer">
+                            <h3>portfolio website</h3>
+                            <p>
+                                my website.
+                                To know more go to GITHUB.<br>
+                                <a href='https://bytebuilderscorp.github.io/VPNs/' target="_blank"><i class="fa-solid fa-link"></i></a>
+                            </p>
+                        </div>                            
+                    </div>  
+                </div>
+                <a href="#" class="see">see more</a>
+        </div>
+    </div>
+    <!-------------------------------My skills------------------------------------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="page_title">My skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>HTML, CSS, JAVA SCRIPT, PHP</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Programming language</h2>
+                    <p>Java, python, C</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database</h2>
+                    <p>MySQL, NOSQL</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Tools</h2>
+                    <p>Git and GitHUB</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <a href="#" class="see" download="">Download CV</a>
+        </div>
+    </div>
+    <!-- --------------------------Contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 calss="page_title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>vivekabhi372@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8125787826</p>
+                    <div class="app">
+                        <a href="https://www.instagram.com/abhi_adventures?igsh=MXRjeGE2d2E0MTVzZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vivek-mulla-145955257" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@MvkVids"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://x.com/Mvk_14_04?t=KGb-E5Nbuys-tMkUZ6CC_w&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="sbt sbt1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 belongs to Vivek </p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/55be803328.js" crossorigin="anonymous"></script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzG0PNoyyp0So34_DApdIHw4DO5cO09oTs_99TF7OGB2A7BU0TEX3vmzvjjvC40EQ4tAQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML= "Message sent successfuully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

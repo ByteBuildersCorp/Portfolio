@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    color: whitesmoke;
+    background-color: black;
+}
+#header{
+    width:100%;
+    height: 100vh;
+    background-image: url('project_file.png');
+    background-size: cover;
+    background-position: center;
+    perspective: 10px;
+}
+.Home img{
+    width: 100%;
+    height: 65px;
+    padding: 0px;
+    border-radius: 50%;
+}
+.Home{
+    font-size: medium;
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size :18px;
+    position: relative;
+}
+nav ul li a::after {
+    content:'';
+    width: 0;
+    height: 3px;
+    background-color: #0088ff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.4s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin: 20%;
+    margin-top: 20%;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 20%;
+}
+.header-text p{
+    margin-left:22%;
+}
+.me{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif e;
+    padding-top: 20px;
+    font-size: 19px;
+}
+.header-text h1{
+    font-size: 55px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 22%;
+}
+.header-text h1 span{
+    color:#0088ff;
+}
+
+
+
+
