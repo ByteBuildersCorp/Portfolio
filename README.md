@@ -31,7 +31,7 @@ This project is a customizable personal portfolio website template. It is design
 1. **Clone the repository**
 
    sh
-   git clone https://github.com/yourusername/portfolio-website.git
+   git clone https://github.com/ByteBuildersCorp/Portfolio
    
 
 2. **Navigate to the project directory**
